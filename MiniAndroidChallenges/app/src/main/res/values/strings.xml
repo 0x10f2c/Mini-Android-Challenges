@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mini Android Challenges</string>
+    <string name="MainMenu">Mini Android Challenges #1</string>
+    <string name="MadeBy">Made by 0x10f2c</string>
+    <string name="buttonOne">Challenge #1</string>
+    <string name="buttonTwo">Challenge #2</string>
+    <string name="buttonThree">Challenge #3</string>
+    <string name="buttonFour">Challenge #4</string>
+    <string name="buttonFive">Challenge #5</string>
+    <string name="buttonSix">Challenge #6</string>
+    <string name="chall2hint2string">There are two ways of solving this using Frida. \nDont overthink it, try google attacks relating to PIN codes.</string>
+    <string name="hint_2">Hint 2</string>
+    <string name="chall2hint1string">Why not try using Frida?</string>
+    <string name="hint_1">Hint 1</string>
+    <string name="ok">OK</string>
+    <string name="enter_pin" tools:ignore="TypographyEllipsis">Enter Pin...</string>
+    <string name="chall2name">Open up</string>
+    <string name="congratulations">Congratulations, you did it!</string>
+    <string name="chall2congrats">Congratulations on completing the challenge! \n There are two ways of completing this challenge, one by using brute force, and another by hooking and modifying the return value. \n Try them both out!</string>
+    <string name="title_activity_secret">SecretActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="congratstext4">You\'ve exposed the secret activity.
+        Developers need to take care when declaring android components such as activities as being exported otherwise any application can interact with said components.
+        If it is necessary to export a component then it should declare what other application can call it.
+        Always investigate exported components when testing an application.</string>
+    <string name="chall4mainname">That shouldn\'t be exported!</string>
+    <string name="chall4description">This challenge isn\'t actually related to this screen and can be exploited at any point in the application!</string>
+    <string name="hint1chall4">Think about what an android application can export.</string>
+    <string name="hint2chall4">ADB has an built in activity manager!</string>
+    <string name="chall1header">To root or not too root</string>
+    <string name="descriptionchallone">The challenge is to be able to read this very description while having root access on your device!\n\n There are no fancy detection methods being done in this app, just generic libs.\n\n If you\'re here with root access then congrats you made it!</string>
+    <string name="github">Made by 0x10f2c</string>
+    <string name="chall5name">Check 1..2..3...</string>
+    <string name="chall5hint">The broadcast occurs every time this fragment is opened from the menu and when you click the send button!</string>
+    <string name="enterflag">Enter Flag</string>
+    <string name="flag2text">Broadcasts can easily be sniffed by other applications and thus should always be checked for sensitive information when testing an application!</string>
+    <string name="enter_flag">Enter flag</string>
+    <string name="broadcast">BROADCAST</string>
+    <string name="chall3">Mirror mirror on the wall</string>
+    <string name="challthreedescription">The webview below takes in and reflects input from the textbox, try do something fun with this!\n (Note there\'s no flag or success screen for this)</string>
+    <string name="input_text">Input text</string>
+    <string name="hint1chall3">Maybe some malicious input could be reflected here?</string>
+    <string name="hint2chall3">The objective here is to perform XSS in the webview!\n If you\'ve done this then congrats you\'ve completed the challenge!</string>
+</resources>
